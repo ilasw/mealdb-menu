@@ -1,0 +1,13 @@
+.App {
+
+  @include media-breakpoint-up(md) {
+    display: grid;
+    grid-template: 1fr / 15rem 1fr;
+    height: 100vh;
+    padding: 0;
+  }
+
+  > :is(.Main) {
+    overflow-y: auto;
+  }
+}

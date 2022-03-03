@@ -1,0 +1,21 @@
+$color-black: #252525;
+$color-light-gray: #f4f5f0;
+$color-gray: #8b8080;
+$color-white: #fff;
+
+$color-green: #6e9930;
+$color-primary: $color-green;
+$color-red: #e60000;
+
+$color-palette: (
+    white: #fff,
+    black: $color-black,
+    primary: $color-primary,
+    red: $color-red,
+);
+
+$breakpoints: (
+    xs: 0,
+    md: 768,
+    lg: 1024,
+);

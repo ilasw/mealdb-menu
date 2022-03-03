@@ -1,0 +1,53 @@
+.MealList {
+  padding: 2rem 0 1rem;
+
+  .heading {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .025em;
+    margin: 0 0 .8em;
+    text-transform: uppercase;
+  }
+
+  .grid {
+    display: grid;
+    grid-template: auto / repeat(3, 1fr);
+    gap: 1.2rem;
+    padding: 0 0 1rem;
+  }
+
+  .item {
+    text-align: center;
+
+    .thumb {
+      border-radius: .4rem;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+    }
+
+    .name {
+      font-size: .8rem;
+      font-weight: 500;
+      margin: .5em 0;
+    }
+
+    .quantity {
+      padding: 0 .5em;
+    }
+  }
+
+  &.\--layout-slider {
+    .grid {
+      display: flex;
+      flex-flow: row nowrap;
+      margin-right: -10vw;
+      overflow-x: scroll;
+      padding-right: 10vw;
+    }
+
+    .item {
+      flex: 0 0 30%
+    }
+  }
+}

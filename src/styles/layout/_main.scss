@@ -1,0 +1,23 @@
+.Main {
+  margin: 0 auto;
+  padding: max(5%, .8rem);
+  width: 100%;
+
+  .heading {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .025em;
+    margin: 2rem 0 .4em;
+    text-transform: uppercase;
+  }
+
+  .subheading {
+    color: $color-gray;
+    font-size: .6rem;
+    margin: 0 0 -1.2rem;
+
+    a {
+      color: $color-primary;
+    }
+  }
+}

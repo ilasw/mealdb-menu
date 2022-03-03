@@ -1,0 +1,17 @@
+.btn {
+  background-color: $color-primary;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-size: .8rem;
+  line-height: 2rem;
+  padding: 0 .8rem;
+
+  &.btn-round {
+    border-radius: .4rem;
+  }
+
+  &-danger{
+    background-color: $color-red;
+  }
+}
